@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Form Page</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/arina/OneDrive/Documents/College-Alexa-Surface/Sophomore/CSCI%203308/Homework%201/mypage_bootstrap.html">Home Page</a>
+            </li>
+          </ul>
+        </nav>
+        <h2>Add New Interest:</h2>
+        <form>
+          <div class="form-group">
+            <label for="interest_name">Interest Name:</label>
+            <input type="text" class="form-control" id="interestName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="interest_text">Text About Interest:</label>
+            <textarea class="form-control" rows="5" id="interestText"></textarea>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>Upload Local Image</p>
+                <div class="custom-file mb-3">
+                  <input type="file" class="custom-file-input" id="customFile" name="filename">
+                  <label class="custom-file-label" for="customFile">Choose file</label>
+                </div>
+            </div>
+            <div class="col">
+              <p>Select # Tweets to Display:</p>
+              <select class="form-control" id="sel1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p>On a scale from 1-5, how interested in this are you?</p>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">1
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">2
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">3
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">4
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">5
+                </label>
+              </div>
+            </div>
+            <div class="col">
+            </div>
+          </div>
+          <p>Login to Finish Submitting</p>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" id="interestName" placeholder="Username">
+            </div>
+            <div class"col">
+              <input type="password" class="form-control" id="interestName" placeholder="Password">
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </body>
+  </html>
